@@ -1,0 +1,152 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+
+    }
+body{
+    background-color: rgb(207, 205, 205);
+}
+   
+
+header{
+    height: 95vh;
+background-image: url(R11.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+    .menu{
+        display: flex;
+    }
+
+    .menu ul li{
+        float: left;
+        padding-left: 20px;
+        color: white;
+        /* padding-lef  pour faire ds spasce*/
+    }
+    .menu ul li a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+
+                /* font-weight pour ageurandire les ecritir*/
+     }
+
+    .menu ul{
+list-style-type: none;
+    padding-left:  500px;
+    }
+    .menu img{
+        width: 300px;
+        padding-left: 100px;
+        
+/* width cest pour duminie le taille*/
+    }
+
+.text{
+    text-align: center;
+    color: white;
+}
+.text a{
+    /*padding +valeur rem, px, pour ageurandire le background */
+    padding: 0.625rem;
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    border-radius: 4px;
+    font-weight: bolder;
+    /* text decoration none pour supprime les tre de sous. */
+
+}
+.contenu{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    padding-right: 20px;
+
+}
+.contenu img{
+    width: 400px;
+    float: right;
+
+}
+.contenu .text1{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+
+}
+.contenu2{
+    display:flex;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: white;
+    
+    
+
+}
+.contenu2 img{
+    width: 400px;
+    float: left;
+
+    
+
+}
+.contenu2 .text2{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+
+
+}
+section a{
+    text-decoration: none;
+    color: red;
+    border: 1px red solid;
+    border-radius: 15px;
+    padding: 6px;
+    margin-left:  150px;
+    
+    
+}
+.contenu3{
+    display:flex;
+    margin-left:200px;
+    margin-right:200px;
+    padding: left 30%;
+    padding: right 30%;
+    text-align:center;
+
+}
+.contenu3 .texta{
+    background-color: grey;
+    color: white;
+}
+.contenu3 .textb{
+    background-color: red;
+    color: white;
+}
+.contenu3 .textc{
+    background-color: grey;
+    color: white;
+
+}
+.contenu4{
+    float: centre;
+    flex-direction: centre;
+    padding-right: 1.5rem;
+}
+footer{
+    display: flex;
+    padding-left: 500px;
+    
+}
+footer img{
+    width: 60px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
